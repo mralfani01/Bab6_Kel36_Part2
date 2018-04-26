@@ -22,6 +22,7 @@ class menu1a:
         print("\nApa yang ingin anda lakukan selanjutnya?")
         print("1. Lihat Data Buku")
         print("2. Pembayaran")
+        print("3. Keluar")
         menu1aaa = input("Masukkan pilihan anda : ")
 
         if menu1aaa == "1":
@@ -42,6 +43,8 @@ class menu1a:
                 objek1a.menu4a.menu4ac()
         elif menu1aaa == "2":
             objek2.tanggal6aa.tanggal6aa()
+        elif menu1aaa == "3":
+            exit()
         else:
             print ("Pilihan yang anda masukkan salah")
             objek1a.menu4a.menu4ac()
