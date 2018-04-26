@@ -15,6 +15,9 @@ class menu1a:
 
         astro1 = databuku("WHY? The Universe - Alam Semesta" , "978-979-27-4541-2" , 2009 , "Lee, Kwang Woong" , 160)
         koleksibuku.append(astro1)
+        
+        novel2 = databuku("Crayon Sinchan vol 14", "978-979-27-8610-1", 2012, "Yoshito Usui" , 50)
+        koleksibuku.append(novel2)
 
         print("\n1. Assalamu'alaikum Beijing")
         print("2. WHY? The Universe - Alam Semesta")
@@ -27,7 +30,7 @@ class menu1a:
 
         if menu1aaa == "1":
             indeksstr = input("\nMasukkan indeks buku : ")
-            if indeksstr == "1" or indeksstr == "2" :
+            if indeksstr == "1" or indeksstr == "2" or indeksstr == "3" :
                 indeksawal = int(indeksstr)
                 if 1 <= indeksawal <= 2:
                     indeks = indeksawal - 1
